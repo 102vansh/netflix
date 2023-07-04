@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url(zgeTuV.jpg);
+    background-position: center;
+    background-size: cover;padding: 10px 8%;
+    position: relative;
+}
+.ne{
+    font-size: 13px;
+    background-color: #db0001;
+    padding: 10px 10px;
+    display: inline-block;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #db0001;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header  nav img{
+    width: 150px;
+    padding: 5px 5px;
+position: relative;
+left: -80px;
+}
+.header button{
+    font-size: 13px;
+    border-radius: 8px;
+    padding:7px 20px ;
+    padding-bottom: 10px;
+    margin: 6px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    background-color:rgb(217, 43, 43)
+}
+.en i{
+    color: #fff;
+}
+.header .en{
+    display: inline-block;
+    align-items: center;
+    border: 1px solid white;
+    background: transparent;
+    color:black;
+    padding: 10px 10px;
+    font-size: 13px;
+    background-color: #fff;
+}
+.content{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   margin-top: 100px;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+max-width: 650px;
+}
+.content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.mail{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.mail input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+.mail button{
+    background: #db0001;
+    border:0;
+    outline: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 130px;
+}.feature{
+padding: 50px 12%;
+font-size: 22px;
+}
+.row{
+display: flex;
+align-items: center;
+width: 100%;
+flex-wrap: wrap;
+padding: 50px 0;
+margin-top: 80px;
+border-bottom: 5px solid #333;
+}
+.col img{
+    width: 450px;
+    margin-left: 25px;
+    flex-basis: 50%;
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+}
+.text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.feature h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq{
+    font-size: 18px;
+    
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+    align-items: center;
+    margin: 50px 520px;
+}
+.accor{
+    margin: 6px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accor li{
+    list-style: none;
+    width:100%;
+    padding: 5px;
+    
+}
+.accor label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    background: #303030;
+    margin-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+    
+}label::after{
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}.accor .co{
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-hieght 0.5s , padding 0.5s;
+    background-color: #303030;
+
+}
+.accor input[type="radio"]{
+display: none;
+}
+.accor input[type="radio"]:checked + label + .co{
+    max-height: 600px;
+    padding: 30px;
+    
+}
+.accor input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.co p{
+    font-size: 14px;
+}
+.mil{
+    width: 150px;
+}
+.mil{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.mil input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+.mil button{
+    background: #db0001;
+    border:0;
+    outline: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 130px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    margin-top: 80px;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.colll{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.colll a{
+    display: block;
+    text-decoration: none;
+    color:#777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.ro{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+
+}
+.footer .ro{
+
+}
